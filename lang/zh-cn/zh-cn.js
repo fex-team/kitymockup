@@ -1,0 +1,2 @@
+KityMockup.LANG['zh-cn'] = {
+};
