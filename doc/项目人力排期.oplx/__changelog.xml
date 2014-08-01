@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="campaign" date="2014-08-01T05:42:53.052Z" timestamp="2014-08-01T05:42:53.052Z">
+    <change idref="t3" to="t-1" to-position="1" resolved="yes">
+      <change idref="t3" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t3" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2014-08-04T00:00:00.000Z"/>
+      <change idref="t3" attribute="title" type="string" to="组件机制设计"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="2" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t5" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2014-08-07T00:00:00.000Z"/>
+      <change idref="t5" attribute="title" type="string" to="编辑流程"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t4" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2014-08-11T00:00:00.000Z"/>
+      <change idref="t4" attribute="title" type="string" to="ui界面"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="前期准备工作" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2014-08-04T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="campaign" date="2014-08-01T05:42:53.052Z" timestamp="2014-08-01T05:42:53.052Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="战毅"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" to="大叔"/>
+    </change>
+    <change idref="r4" to="r-1" to-position="3" resolved="yes">
+      <change idref="r4" attribute="name" type="string" to="自萌"/>
+    </change>
+  </resource-change-set>
+  <metadata-change-set user="campaign" date="2014-08-01T05:42:53.052Z" timestamp="2014-08-01T05:42:53.052Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2014-08-01T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
